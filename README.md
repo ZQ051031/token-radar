@@ -1,5 +1,9 @@
 # Token Radar — token-radar-01
 
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/ZQ051031/token-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/ZQ051031/token-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
 A token launch radar: it reads a sealed snapshot of the protocol universe, ranks the
 pre-token protocols by an implied value, and shows a reader how to farm each one.
 
@@ -8,7 +12,7 @@ pre-token protocols by an implied value, and shows a reader how to farm each one
 `main.ts` (Node 22, standard library only) reads `/input/snapshot.json`, scores every
 pre-token protocol with the model in `lib/model.ts`, and writes:
 
-- `board.json` — 200 ranked rows (the 40 watchlist protocols plus the 160 early ones
+- `board.json` — 198 ranked rows (the 40 watchlist protocols plus the 158 early ones
   below the watchlist floor, ranked by implied value), each with a seven-step farm plan.
 - `data.js` — the same board in compact form for the dashboard.
 - `dashboard/` — a static page: sortable, filterable, with a detail view per protocol.
@@ -45,3 +49,7 @@ snapshot bytes always write the same output bytes.
 - `vendor/makefun-board.ts` — make.fun's dossier library, copied from the kit
 - `dashboard/` — `index.html`, `app.css`, `app.js`
 - `screenshots/` — the three dossier screenshots
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
